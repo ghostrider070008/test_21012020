@@ -6,13 +6,31 @@ html(lang="ru-RU")
     script(src="static/js/bootstrap.min.js")
     script(src="static/js/fontawesome.all.min.js")
     head
-        title Hello World
+        title Test
     body
         div.contain
             .container
                 .row
-                    img(src="static/img/logo.png" alt="logo" class="logo")
-                    h3 PDF-конспекты для самостоятельного изучения курса
+                    .col-xl-3
+                        img(src="static/img/logo.png" alt="logo" class="logo")
+                    .col-xl-6
+                        h3 PDF-конспекты для самостоятельного изучения курса
+                    .col-xl-3
+                .row
+                    .col-xl-7
+                        h2(class="predictive") ПРЕДСКАЗАТЕЛЬНЫЙ
+                        h1
+                            span ФЕНШУЙ
+                            i 9
+                            span ДВОРЦОВ
+                        img(class="star" src="static/img/star.png" alt="star")
+                        h4(class="text-1") Освойте базовые навыки системы прогностики по 9 дворцам,
+                            span ЧТОБЫ ПРОГНОЗИРОВАТЬ И КОРРЕКТИРОВАТЬ СВОЕ БУДУЩЕЕ
+                            i ДЛЯ ПОЛУЧЕНИЯ ДЕНЕГ, ЗДОРОВЬЯ И УДАЧИ
+                        h4 Без обратной связи от Татьяны Панюшкиной и домашних заданий.
+                    .col-xl-5
+                        img(src="static/img/titcher.png" alt="titcher")
+
 
 
         h1 Привет Мир
